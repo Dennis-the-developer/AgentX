@@ -112,4 +112,33 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+
+.header {
+    font-size: 50px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#hero-text-and-btn {
+    padding-left: 10vw;
+}
+
+#hero-text-and-btn p:nth-child(2){
+    font-size: 25px;
+}
+
+#hero-button {
+    width: 14vw;
+    height: 8vh;
+    background-color: #33209b;
+    border: none;
+    font-size: 20px;
+    color: white;
+    margin-top: 5vh;
 }
