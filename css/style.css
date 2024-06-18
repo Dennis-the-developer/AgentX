@@ -47,6 +47,54 @@ body {
     width: 100vw;
     height: 15vh;
     background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+#nav-bar-left {
+    display: flex;
+    align-items: center;
+    column-gap: 2vw;
+    margin-left: 2vw;
+}
+
+#nav-bar-right {
+    display: flex;
+    align-items: center;
+    column-gap: 2vw;
+    margin-right: 2vw;
+}
+
+#nav-items {
+    display: flex;
+    column-gap: 2vw;
+}
+
+#nav-items a {
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+#appointment-button {
+    width: 14vw;
+    height: 7vh;
+    border: 1px solid #33209b;
+    background-color: white;
+    font-size: 20px;
+}
+
+#appointment-button:hover {
+    color: white;
+    background-color: #33209b;
+}
+
+#call-us {
+    font-size: 20px;
+}
+
+#call-us-phone {
+    color: #33209b;
 }
 
 #logo {
@@ -56,11 +104,11 @@ body {
 
 /*  --------------  END OF NAVBAR SECTION --------------- */
 
-
+/* -----------------  HERO SECTION  -------------------- */
 #hero-section {
     width: 100vw;
     height: 100vh;
-    background-image: url('../assets/images/hero-img.jpg');
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('../assets/images/hero-img.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
