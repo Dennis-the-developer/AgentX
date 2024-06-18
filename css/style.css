@@ -1,0 +1,52 @@
+/* 
+    Primary color: blue-like => rgb(51, 32, 155)
+*/
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/*  --------------   TOP MOST SECTION --------------- */
+#top-most-bar {
+    width: 100vw;
+    height: 8vh;
+    background-color: #33209b;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+}
+
+#location-and-mail {
+    display: flex;
+    column-gap: 1vw;
+}
+
+#location-and-mail p:first-child {
+    margin-left: 2vw;
+}
+
+/* #vertical-line {
+    margin: 0 1vw;
+} */
+#socials {
+    display: flex;
+    column-gap: 2vw;
+}
+
+#socials i:last-child {
+    margin-right: 2vw;
+}
+
+/*  --------------  END OF TOP MOST SECTION --------------- */
+
+/*  --------------   NAVBAR SECTION --------------- */
+#nav-bar {
+    width: 100vw;
+    height: 15vh;
+    background-color: white;
+}
+
+/*  --------------  END OF NAVBAR SECTION --------------- */
