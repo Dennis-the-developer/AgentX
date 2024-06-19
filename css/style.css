@@ -146,3 +146,90 @@ body {
 /* ----------------- END OF HERO SECTION  -------------------- */
 
 /* -----------------  ABOUT SECTION  -------------------- */
+#About-us {
+    width: 100vw;
+    height: 130vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#image-card-text {
+    width: 65vw;
+    height: 90vh;
+    /* background-color: green; */
+    display: flex;
+    column-gap: 5vw;
+
+}
+
+#image-card-text img {
+    width: 30vw;
+    height: 90vh;
+    border-top-left-radius: 25%;
+}
+
+#image-and-card {
+    position: relative;
+}
+
+#card {
+    width: 12vw;
+    height: 25vh;
+    background-color:#33209b;
+    position: absolute;
+    top: 78%;
+    left: 80%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#card p:first-child {
+    font-size: 76px;
+    margin: 0;
+}
+
+#card p:last-child {
+    font-size: 18px;
+    margin: 0;
+}
+
+#about-us-text p:first-child {
+    font-size: 45px;
+    line-height: 56px;
+}
+
+#about-us-text p:nth-child(2) {
+    font-size: 24px;
+}
+
+#about-us-text p:nth-child(3) {
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+#about-us-text p:nth-child(4) {
+    font-size: 20px;
+}
+
+#about-us-text p:nth-child(4) span {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+#about-us-text img {
+    width: 15vw;
+    height: 15vh;
+}
+
+/* -----------------  END OF ABOUT SECTION  -------------------- */
+
+/* -----------------  OUR PRACTICE SECTION  -------------------- */
+#our-practice {
+    width: 100vw;
+    height: 100vh;
+    /* background-color: ; */
+}
