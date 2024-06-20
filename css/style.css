@@ -54,7 +54,7 @@ body {
 #nav-bar-left {
     display: flex;
     align-items: center;
-    column-gap: 2vw;
+    column-gap: 5vw;
     margin-left: 2vw;
 }
 
@@ -155,18 +155,18 @@ body {
 }
 
 #image-card-text {
-    width: 65vw;
+    width: 80vw;
     height: 90vh;
     /* background-color: green; */
     display: flex;
-    column-gap: 5vw;
+    column-gap: 10vw;
 
 }
 
 #image-card-text img {
-    width: 30vw;
+    width: 35vw;
     height: 90vh;
-    border-top-left-radius: 25%;
+    border-top-left-radius: 30%;
 }
 
 #image-and-card {
@@ -174,7 +174,7 @@ body {
 }
 
 #card {
-    width: 12vw;
+    width: 14vw;
     height: 25vh;
     background-color:#33209b;
     position: absolute;
@@ -197,8 +197,16 @@ body {
     margin: 0;
 }
 
+#about-us-text {
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+
 #about-us-text p:first-child {
-    font-size: 45px;
+    font-size: 46px;
     line-height: 56px;
 }
 
@@ -209,6 +217,7 @@ body {
 #about-us-text p:nth-child(3) {
     font-size: 18px;
     letter-spacing: 1px;
+    color: grey;
 }
 
 #about-us-text p:nth-child(4) {
@@ -228,8 +237,79 @@ body {
 /* -----------------  END OF ABOUT SECTION  -------------------- */
 
 /* -----------------  OUR PRACTICE SECTION  -------------------- */
-#our-practice {
+#our-services {
     width: 100vw;
-    height: 100vh;
-    /* background-color: ; */
+    height: 120vh;
+    background-color: #F7F4F4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5vh;
 }
+
+#our-services-sub-container {
+    width: 85vw;
+    height: 90vh;
+    /* background-color: green; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 1vw;
+}
+
+#our-service-list {
+    width: 60vw;
+    height: 80vh;
+    /* background-color: blue; */
+}
+
+#free-quote-form {
+    width: 30vw;
+    height: 85vh;
+    background-color: red;
+    border-top-right-radius: 30%;
+}
+
+#our-service-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 0.6vw;
+    row-gap: 0.6vw;
+}
+
+.list-boxes {
+    background-color: white; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;  
+}
+
+.sub-header {
+    font-size: 46px;
+}
+
+.list-icon-container {
+    width: 5vw;
+    height: 5vw;
+    background-color: #FBF4F3;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.list-heading {
+    font-size: 24px;
+}
+
+/* .list-icon {
+    width: 3vw;
+    height: 3vw;
+} */
+
+.list-text-body {
+    font-size: 20px;
+    color: grey;
+}   
