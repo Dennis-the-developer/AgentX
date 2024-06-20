@@ -313,3 +313,36 @@ body {
     font-size: 20px;
     color: grey;
 }   
+
+#free-quote-form {
+    display: flex;
+    flex-direction: column;
+    padding: 3vw 5vw;
+    row-gap: 3vh;
+    color: white;
+}
+
+#free-quote-form p:first-child {
+    font-size: 50px;
+}
+
+#test-paragraph {
+    font-size: 20px;
+}
+
+.input-boxes {
+    height: 10vh;
+}
+
+#textarea {
+    height: 20vh;
+}
+
+#send-message-btn {
+    width: 30vw;
+    height: 15vh;
+    background-color:#33209b;
+    color: white;
+    border: none;
+    
+}
