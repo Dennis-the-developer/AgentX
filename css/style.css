@@ -108,7 +108,7 @@ body {
 #hero-section {
     width: 100vw;
     height: 100vh;
-    background-image: linear-gradient(to right, rgba(0,0,0,0.8), rgba(0,0,0,0.5), rgba(0,0,0,0.2)), url('../assets/images/hero-img.jpg');
+    background-image: linear-gradient(to right, rgba(0,0,0,0.8), rgba(0,0,0,0.5), rgba(0,0,0,0.2)), url('../assets/images/new-hero-img.webp');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
