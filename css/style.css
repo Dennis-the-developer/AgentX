@@ -249,9 +249,8 @@ body {
 }
 
 #our-services-sub-container {
-    width: 85vw;
-    height: 90vh;
-    /* background-color: green; */
+    width: 90vw;
+    height: 95vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -259,16 +258,28 @@ body {
 }
 
 #our-service-list {
-    width: 60vw;
+    width: 65vw;
     height: 80vh;
-    /* background-color: blue; */
 }
 
 #free-quote-form {
-    width: 30vw;
-    height: 85vh;
-    background-color: red;
+    width: 35vw;
+    height: 90vh;
+    background-color: #33209B;
     border-top-right-radius: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#free-quote-form-container {
+    width: 25vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    row-gap: 2vh;
 }
 
 #our-service-list {
@@ -288,6 +299,11 @@ body {
 
 .sub-header {
     font-size: 46px;
+}
+
+.list-icon {
+    width: 1vw;
+    height: 1hv;
 }
 
 .list-icon-container {
@@ -314,35 +330,41 @@ body {
     color: grey;
 }   
 
-#free-quote-form {
-    display: flex;
-    flex-direction: column;
-    padding: 3vw 5vw;
-    row-gap: 3vh;
-    color: white;
-}
-
 #free-quote-form p:first-child {
-    font-size: 50px;
+    font-size: 40px;
+    margin: 5vh 0 0 0;
+    color: rgb(233, 229, 229);
 }
 
 #test-paragraph {
-    font-size: 20px;
+    font-size: 18px;
+    margin: 0;
+    color: rgb(233, 229, 229);
 }
 
 .input-boxes {
-    height: 10vh;
+    height: 15vh;
+    background-color: #FBF4F3;
 }
 
 #textarea {
-    height: 20vh;
+    height: 25vh;
+    background-color: #FBF4F3;
 }
 
 #send-message-btn {
-    width: 30vw;
+    width: inherit;
     height: 15vh;
-    background-color:#33209b;
-    color: white;
-    border: none;
-    
+    background-color:rgb(254, 111, 0);
+    color: rgb(233, 229, 229);
+    border: none; 
+    font-size: 20px;
 }
+
+/* ---------------- Why choose us --------------- */
+#why-choose-us {
+    width: 100vw;
+    height: 100vh;
+}
+
+/* ----------------- End why choose us */
