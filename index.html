@@ -9,6 +9,10 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
         integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/swiper.css">
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
 </head>
 
 <body>
@@ -29,7 +33,7 @@
     <section id="nav-bar">
         <div id="nav-bar-left">
             <div>
-                <img id="logo" src="./assets/logo/logo-no-background.png" alt="">
+                <img id="logo" src="./assets/logo/logo-transparent-png.png" alt="">
             </div>
             <nav id="nav-items">
                 <a href="">Home</a>
@@ -52,7 +56,7 @@
                 consectetur <br>
                 perferendis rem obcaecati dolorem dicta?
             </p>
-            <button id="hero-button">Our Services</button>
+            <button class="hero-button">Our Services</button>
         </div>
     </section>
     <section id="About-us">
@@ -95,7 +99,7 @@
             <div id="our-service-list">
                 <div class="list-boxes">
                     <div class="list-icon-container">
-                        <i class="fa-solid fa-house-chimney-user" class="list-icon"></i>
+                        <img class="list-icon" src="./assets/icons/houseIcon.png" alt="">
                     </div>
                     <p class="list-heading">Houses</p>
                     <p class="list-text-body">Bring to the table win-win survival<br>
@@ -105,7 +109,7 @@
                 </div>
                 <div class="list-boxes">
                     <div class="list-icon-container">
-                        <i class="fa-solid fa-mountain-sun" class="list-icon"></i>
+                        <img class="list-icon" src="./assets/icons/landIcon.png" alt="">
                     </div>
                     <p class="list-heading">Lands</p>
                     <p class="list-text-body">Bring to the table win-win survival<br>
@@ -115,7 +119,7 @@
                 </div>
                 <div class="list-boxes">
                     <div class="list-icon-container">
-                        <i class="fa-solid fa-car" class="list-icon"></i>
+                        <img class="list-icon" src="./assets/icons/carIcon.png" alt="">
                     </div>
                     <p class="list-heading">Cars</p>
                     <p class="list-text-body">Bring to the table win-win survival<br>
@@ -125,7 +129,7 @@
                 </div>
                 <div class="list-boxes">
                     <div class="list-icon-container">
-                        <i class="fa-brands fa-servicestack" class="list-icon"></i>
+                        <img class="list-icon" src="./assets/icons/otherServicesIcon.png" alt="">
                     </div>
                     <p class="list-heading">Other Services</p>
                     <p class="list-text-body">Bring to the table win-win survival<br>
@@ -155,8 +159,105 @@
         </div>
     </section>
     <section id="why-choose-us">
+        <div id="why-choose-us-top-section">
+            <p>Why Choose Us?</p>
+            <p>"Our professional leadership team is truly committed to producing the <br>
+                best results for our clients very successfully..
+            </p>
+            <p>Bring to the table win-win survival strategies to ensure proactive domination. At the end <br>
+                of the day, going forward, a new normal that has evolved from generation.
+            </p>
+            <button class="hero-button">Learn More</button>
+        </div>
+        <hr>
+        <div id="why-choose-us-bottom-section">
+            
+        </div>
+    </section>
+    <section id="what-clients-say">
+        <div id="swiper-container">
+            <!-- Swiper -->
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <p class="swiper-header">What Clients Say</p>
+                        <p class="swiper-subheader">Our professional leadership team is truly <br>
+                            committed to producing the best results for our <br>
+                            clients very successfully
+                        </p>
+                        <div class="profile-img-and-name">
+                            <div class="profile-img-container">
+                                <img class="profile-img" src="./assets/images/profile1.jpg" alt="">
+                            </div>
+                            <div>
+                                <p>Dennis Appah</p>
+                                <p>CEO of AgentX</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <p class="swiper-header">What Clients Say</p>
+                        <p class="swiper-subheader">Our professional leadership team is truly <br>
+                            committed to producing the best results for our <br>
+                            clients very successfully
+                        </p>
+                        <div class="profile-img-and-name">
+                            <div class="profile-img-container">
+                                <img class="profile-img" src="./assets/images/profile1.jpg" alt="">
+                            </div>
+                            <div>
+                                <p>Dennis Appah</p>
+                                <p>CEO of AgentX</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <p class="swiper-header">What Clients Say</p>
+                        <p class="swiper-subheader">Our professional leadership team is truly <br>
+                            committed to producing the best results for our <br>
+                            clients very successfully
+                        </p>
+                        <div class="profile-img-and-name">
+                            <div class="profile-img-container">
+                                <img class="profile-img" src="./assets/images/profile1.jpg" alt="">
+                            </div>
+                            <div>
+                                <p>Dennis Appah</p>
+                                <p>CEO of AgentX</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div> -->
+                <div class="autoplay-progress">
+                    <svg viewBox="0 0 48 48">
+                        <circle cx="24" cy="24" r="20"></circle>
+                    </svg>
+                    <span></span>
+                </div>
+            </div>
+        </div>
 
     </section>
+    <section id="recent-news">
+        <p>Recent News</p>
+        <p>Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new.
+        </p>
+        <div id="recent-news-sub-header">
+            <div class="recent-news-sub-header-items">
+                <div><img src="" alt=""></div>
+                <div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./js/swiper.js"></script>
+    <!-- Swiper JS -->
 
 </body>
 

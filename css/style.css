@@ -1,5 +1,6 @@
 /* 
     Primary color: blue-like => rgb(51, 32, 155)
+    Primary color: green-like => #67A87B
 */
 
 body {
@@ -79,9 +80,9 @@ body {
 #appointment-button {
     width: 14vw;
     height: 7vh;
-    border: 1px solid #33209b;
+    border: 1px solid  #33209b;
     background-color: white;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 #appointment-button:hover {
@@ -99,7 +100,7 @@ body {
 
 #logo {
     width: 12vw;
-    height: 10vh;
+    height: 15vh;
 }
 
 /*  --------------  END OF NAVBAR SECTION --------------- */
@@ -133,10 +134,10 @@ body {
     font-size: 25px;
 }
 
-#hero-button {
+.hero-button {
     width: 14vw;
     height: 8vh;
-    background-color: #33209b;
+    background-color: #67A87B;
     border: none;
     font-size: 20px;
     color: white;
@@ -295,6 +296,8 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;  
+    border: 1px solid #33209B;
+    row-gap: 3vh;
 }
 
 .sub-header {
@@ -302,14 +305,15 @@ body {
 }
 
 .list-icon {
-    width: 1vw;
-    height: 1hv;
+    width: 5vw;
+    height: 5vw;
 }
 
 .list-icon-container {
-    width: 5vw;
-    height: 5vw;
-    background-color: #FBF4F3;
+    width: 8vw;
+    height: 8vw;
+    background-color: #33209B;
+    opacity: 0.8;
     border-radius: 100%;
     display: flex;
     align-items: center;
@@ -318,16 +322,14 @@ body {
 
 .list-heading {
     font-size: 24px;
+    margin: 0; 
+    text-transform: uppercase;
 }
-
-/* .list-icon {
-    width: 3vw;
-    height: 3vw;
-} */
 
 .list-text-body {
     font-size: 20px;
     color: grey;
+    margin: 0;
 }   
 
 #free-quote-form p:first-child {
@@ -345,26 +347,108 @@ body {
 .input-boxes {
     height: 15vh;
     background-color: #FBF4F3;
+    font-size: 15px;
+    padding-left: 1vw;
+    border: none;   
 }
 
 #textarea {
     height: 25vh;
     background-color: #FBF4F3;
+    font-size: 15px;
+    padding-left: 1vw;
+    border: none;
 }
 
 #send-message-btn {
     width: inherit;
     height: 15vh;
-    background-color:rgb(254, 111, 0);
+    /* background-color:rgb(254, 111, 0); */
+    background-color:#67A87B;
     color: rgb(233, 229, 229);
     border: none; 
     font-size: 20px;
 }
 
-/* ---------------- Why choose us --------------- */
+/* ---------------- WHY CHOOSE US --------------- */
 #why-choose-us {
     width: 100vw;
     height: 100vh;
 }
 
-/* ----------------- End why choose us */
+#why-choose-us-top-section {
+    width: 100vw;
+    height: 70vh;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#why-choose-us-top-section p:first-child {
+    font-size: 36px;
+    color: green;
+}
+
+#why-choose-us-top-section p:nth-child(2) {
+    font-size: 24px;
+}
+
+#why-choose-us-top-section p:nth-child(3) {
+    font-size: 18px;
+    color: grey;    
+}
+
+#why-choose-us-bottom-section {
+    width: 100vw;
+    height: 30vh;
+    background-color: green;
+}
+
+/* ----------------- END OF WHY CHOOSE US --------------- */
+
+
+/* ---------------- WHAT CLIENTS SAY --------------- */
+#what-clients-say {
+    width: 100vw;
+    height: 70vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0)), url(../assets/images/port-7841566_1920.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    color: white;
+}
+
+.profile-img-container {
+    width: 7vw;
+    height: 7vw;
+    border-radius: 100%;
+    background-color: red;
+}
+
+.profile-img {
+    width: 5vw;
+    height: 5vw;
+    border-radius: 100%;
+}
+
+.profile-img-and-name {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 3vw;
+}
+
+/* ---------------- END OF WHAT CLIENTS SAY --------------- */
+
+
+/* ---------------- RECENT NEWS --------------- */
+#recent-news {
+    width: 100vw;
+    height: 100vh;
+}
+
+/* ---------------- END OF RECENT NEWS --------------- */
