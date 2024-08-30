@@ -109,7 +109,7 @@ body {
 #hero-section {
     width: 100vw;
     height: 100vh;
-    background-image: linear-gradient(to right, rgba(0,0,0,0.8), rgba(0,0,0,0.5), rgba(0,0,0,0.2)), url('../assets/images/new-hero-img.webp');
+    background-image: linear-gradient(to right, rgba(0,0,0,0.9), rgba(0,0,0,0.7),rgba(0,0,0,0.5), rgba(0,0,0,0.1)), url('../assets/images/new-hero-img.webp');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -149,24 +149,26 @@ body {
 /* -----------------  ABOUT SECTION  -------------------- */
 #About-us {
     width: 100vw;
-    height: 120vh;
+    height: 90vh;
     display: flex;
-    align-items: center;
+    /* align-items: center; */
+    padding-top: 150px;
     justify-content: center;
 }
 
 #image-card-text {
-    width: 80vw;
-    height: 90vh;
+    width: 75vw;
+    height: 60vh;
     /* background-color: green; */
     display: flex;
-    column-gap: 10vw;
+    justify-content: space-between;
+    /* column-gap: 10vw; */
 
 }
 
 #image-card-text img {
-    width: 33vw;
-    height: 85vh;
+    width: 30vw;
+    height: 75vh;
     border-top-left-radius: 140px;
 }
 
@@ -175,11 +177,11 @@ body {
 }
 
 #card {
-    width: 16vw;
-    height: 25vh;
+    width: 13vw;
+    height: 20vh;
     background-color:#33209b;
     position: absolute;
-    top: 70%;
+    top: 100%;
     left: 70%;
     color: white;
     display: flex;
@@ -202,8 +204,7 @@ body {
     width: 40vw;
     display: flex;
     flex-direction: column;
-    align-items: start;
-    justify-content: center;
+    align-items: center;
 }
 
 #about-us-text p:first-child {
@@ -447,7 +448,7 @@ body {
 /* ---------------- RECENT NEWS --------------- */
 #recent-news {
     width: 100vw;
-    height: 100vh;
+    height: 120vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -483,7 +484,7 @@ body {
 }
 
 .recent-news-inner-box-img {
-    height: 70%;
+    height: 60%;
     width: 100%;
 }
 .recent-news-inner-box-img img{
@@ -525,5 +526,11 @@ body {
     text-decoration-color: #33209B;
     text-decoration-line: underline;
     text-underline-offset: calc(15px);
-}   
+}
+
+footer {
+    width: 100vw;
+    height: 80vh;
+    background-color: #33209B;
+}
 /* ---------------- END OF RECENT NEWS --------------- */
