@@ -302,6 +302,7 @@ body {
 
 .sub-header {
     font-size: 46px;
+    color: green;
 }
 
 .list-icon {
@@ -453,8 +454,10 @@ body {
 }
 
 .grey-font-1 {
-    font-size: 18px;
+    font-size: 20px;
     color: grey;    
+    width: 40%;
+    text-align: center;
 }
 
 #recent-news-inner-box {
@@ -464,7 +467,7 @@ body {
     height: 65%;
     /* background-color: green; */
     display: flex;
-    column-gap: 30px;
+    column-gap: 50px;
 }
 
 #recent-news-inner-box-left {
@@ -497,4 +500,30 @@ body {
     top: -100px;
     left: 120px;
 }
+
+.recent-news-card-firstline {
+    font-size: 16px;
+    padding: 30px 30px 0;
+    color: #33209B;
+}
+
+.recent-news-card-secondline {
+    font-size: 24px;
+    padding: 0 30px;
+    letter-spacing: 1px;
+}
+
+.recent-news-card-thirdline {
+    font-size: 16px;
+    padding: 0 30px;
+    color: grey;
+}
+
+.recent-news-card-fourthline {
+    font-size: 18px;
+    padding: 0 30px;
+    text-decoration-color: #33209B;
+    text-decoration-line: underline;
+    text-underline-offset: calc(15px);
+}   
 /* ---------------- END OF RECENT NEWS --------------- */
