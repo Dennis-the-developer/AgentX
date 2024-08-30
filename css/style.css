@@ -12,7 +12,8 @@ body {
 #top-most-bar {
     width: 100vw;
     height: 8vh;
-    background-color: #33209b;
+    /* background-color: #33209b; */
+    background-color: #190e53;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -74,20 +75,25 @@ body {
 #nav-items a {
     text-decoration: none;
     font-size: 20px;
+}
+
+#nav-bar-left #nav-items a {
     text-transform: uppercase;
 }
 
 #appointment-button {
     width: 14vw;
     height: 7vh;
-    border: 1px solid  #33209b;
+    /* border: 1px solid  #33209b; */
+    border: 1px solid  #190e53;
     background-color: white;
     font-size: 18px;
 }
 
 #appointment-button:hover {
     color: white;
-    background-color: #33209b;
+    /* background-color: #33209b; */
+    background-color: #190e53;
 }
 
 #call-us {
@@ -95,10 +101,11 @@ body {
 }
 
 #call-us-phone {
-    color: #33209b;
+    /* color: #33209b; */
+    color: #190e53;
 }
 
-#logo {
+.logo {
     width: 8vw;
     height: 12vh;
 }
@@ -137,7 +144,7 @@ body {
 .hero-button {
     width: 14vw;
     height: 8vh;
-    background-color: #67A87B;
+    background-color: #187233;
     border: none;
     font-size: 20px;
     color: white;
@@ -179,7 +186,8 @@ body {
 #card {
     width: 13vw;
     height: 20vh;
-    background-color:#33209b;
+    /* background-color:#33209b; */
+    background-color:#190e53;
     position: absolute;
     top: 100%;
     left: 70%;
@@ -267,7 +275,8 @@ body {
 #free-quote-form {
     width: 35vw;
     height: 80vh;
-    background-color: #33209B;
+    /* background-color: #33209B; */
+    background-color: #190e53;
     border-top-right-radius: 30%;
     display: flex;
     align-items: center;
@@ -297,13 +306,15 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;  
-    border: 1px solid #33209B;
+    /* border: 1px solid #33209B; */
+    border: 1px solid #190e53;
     row-gap: 3vh;
 }
 
 .sub-header {
     font-size: 46px;
-    color: green;
+    /* color: rgb(4, 108, 4); */
+    color: #187233;
 }
 
 .list-icon {
@@ -314,7 +325,8 @@ body {
 .list-icon-container {
     width: 5vw;
     height: 5vw;
-    background-color: #33209B;
+    /* background-color: #33209B; */
+    background-color: #190e53;
     opacity: 0.8;
     border-radius: 100%;
     display: flex;
@@ -365,7 +377,7 @@ body {
 #send-message-btn {
     width: inherit;
     height: 8vh;
-    background-color:#67A87B;
+    background-color:#187233;
     color: rgb(233, 229, 229);
     border: none; 
     font-size: 20px;
@@ -388,7 +400,7 @@ body {
 
 #why-choose-us-top-section p:first-child {
     font-size: 36px;
-    color: green;
+    color: #187233;
 }
 
 #why-choose-us-top-section p:nth-child(2) {
@@ -403,7 +415,7 @@ body {
 #why-choose-us-bottom-section {
     width: 100vw;
     height: 30vh;
-    background-color: green;
+    background-color: #187233;
 }
 
 /* ----------------- END OF WHY CHOOSE US --------------- */
@@ -530,7 +542,62 @@ body {
 
 footer {
     width: 100vw;
-    height: 80vh;
-    background-color: #33209B;
+    height: 60vh;
+    background-color: #190e53;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-line-1 {
+    color: rgb(163, 155, 155);
+    font-size: 24px;
+    text-align: center;
+    width: 900px;
+    margin-bottom: 70px;
+}
+
+#footer-nav-items {
+    color: rgb(163, 155, 155);
+}
+
+#footer-contact {
+    margin-top: 30px;
+}
+
+#footer-contact hr {
+    width: 1100px;
+    color: rgb(163, 155, 155);
+}
+
+
+#bottom-bar {
+    width: 70vw;
+    height: 8vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(163, 155, 155);
+    font-size: 20px;
+}
+
+#bottom-appointment-button {
+    width: 14vw;
+    height: 7vh;
+    /* border: 1px solid  #33209b; */
+    border: 1px solid  #190e53;
+    background-color: white;
+    font-size: 18px; 
+}
+
+#bottom-appointment-button:hover {
+    background-color: #190e53;
+    border: 1px solid rgb(163, 155, 155);
+    color: rgb(163, 155, 155);
+}
+
+#copyright-text {
+    color: rgb(163, 155, 155);
 }
 /* ---------------- END OF RECENT NEWS --------------- */
